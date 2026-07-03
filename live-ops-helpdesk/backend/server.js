@@ -120,7 +120,10 @@ socket.on("get_tickets", () => {
     console.log("Client Disconnected");
   });
 });
-
-server.listen(5000, () => {
-  console.log("Server running on http://localhost:5000");
+app.get("/", (req, res) => {
+  res.send("Live Ops Helpdesk Backend Running ✅");
+});
+const PORT = process.env.PORT || 5000;
+server.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });

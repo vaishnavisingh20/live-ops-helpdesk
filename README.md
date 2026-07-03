@@ -1,4 +1,4 @@
-# 🚚 Live Ops Helpdesk
+# Live Ops Helpdesk
 
 A real-time collaborative support ticket dashboard built for **RapidDispatch Freight & Logistics**.
 
@@ -209,6 +209,3 @@ This implementation introduces real-time collaborative editing where only one su
 
 ---
 
-# Author
-
-Developed as part of the **Live Ops Helpdesk** real-time collaboration assignment using **Next.js**, **Express**, and **Socket.io**.

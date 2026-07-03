@@ -3,11 +3,9 @@
 import { io } from "socket.io-client";
 
 export const socket = io(
-  "http://localhost:5000",
+  "https://live-ops-helpdesk-1-t7e2.onrender.com",
   {
     autoConnect: true,
     reconnection: true,
-    reconnectionAttempts: Infinity,
-    reconnectionDelay: 1000,
   }
 );
